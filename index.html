@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taş Kağıt Makas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="game-container">
+        <header class="scoreboard">
+            <div class="score-box user">
+                <span class="badge">SEN</span>
+                <span id="user-score">0</span>
+            </div>
+            <div class="score-box computer">
+                <span class="badge">CPU</span>
+                <span id="computer-score">0</span>
+            </div>
+        </header>
+
+        <section class="result-area">
+            <p id="result-text">Hamleni Yap</p>
+        </section>
+
+        <section class="choices">
+            <button class="choice-btn" data-choice="tas">✊</button>
+            <button class="choice-btn" data-choice="kagit">✋</button>
+            <button class="choice-btn" data-choice="makas">✌️</button>
+        </section>
+
+        <button id="reset-btn">Oyunu Sıfırla</button>
+    </main>
+</body>
+</html>
